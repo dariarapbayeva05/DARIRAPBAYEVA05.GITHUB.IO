@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <title>My Profile</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="header">
+        <div class="header container">
+            <div class="nav-bar">
+                <div class="brand">
+                    <a href="#hero"><h1>My Profile</h1></a>
+                </div>
+                <div class="nav-list">
+                    <div class="hamburger">
+                        <div class="bar"></div>
+                    </div>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#services">About Myself</a></li>
+                        <li><a href="#projects">My Education</a></li>
+                        <li><a href="#about">My Socials</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="hero">
+        <div class="hero container">
+            <div>
+            <h1>Hello,
+            I am Dariga Arapbayeva</h1>
+            <a href="#services" type="button" class="btn">Who Am I?</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="services">
+        <div class="services container">
+            <div class="service-top">
+                <h1 class="section-title">Who Am I?</h1>
+
+                <div class="photos">
+                                           <style>
+                            .mySlides {display:none;}
+                            </style>
+                            </head>
+                            
+                            <body>
+                            <div class="w3-content w3-section" style="max-width:500px">
+                              <img class="mySlides" src="dari.png" style="width:100%">
+                              <img class="mySlides" src="travel.png" style="width:100%">
+                              <img class="mySlides" src="vol.png" style="width:100%">
+                              <img class="mySlides" src="book.png" style="width:100%">
+
+                            </div>
+                            
+                            <script>
+                            var myIndex = 0;
+                            carousel();
+                            
+                            function carousel() {
+                              var i;
+                              var x = document.getElementsByClassName("mySlides");
+                              for (i = 0; i < x.length; i++) {
+                                x[i].style.display = "none";  
+                              }
+                              myIndex++;
+                              if (myIndex > x.length) {myIndex = 1}    
+                              x[myIndex-1].style.display = "block";  
+                              setTimeout(carousel, 2000); // Change image every 2 seconds
+                            }
+                            </script>
+                            
+                    </div>
+                </div>
+                <!-- <p> -Content Creation<br>
+                    - Social Networking<br>
+                    - Responsibility<br>
+                    --Strong Communication Skills</p> -->
+
+                <div class="service-bottom">
+                    <div class="service-item">
+                        <div class="icon"><img src="https://img.icons8.com/external-itim2101-flat-itim2101/64/000000/external-support-services-contact-and-message-itim2101-flat-itim2101-2.png"/>
+                        </div>
+
+                        <h2>Basic Data</h2>
+                        <h3>Date of Birth: 05.06.2002
+                        </h3>
+                         <p>Place<b> of Birth</b>: Shymkent</p> 
+                         
+                    </div>
+                    <div class="service-item">
+                        <div class="icon"><img src="https://img.icons8.com/external-itim2101-flat-itim2101/64/000000/external-support-services-contact-and-message-itim2101-flat-itim2101-2.png"/>
+                        </div>
+                        <h2>My Hobby</h2>
+                        <h3>Baking</h3>
+                         <p><b>I have a business</b> with my sister, we bake bento cakes with her and sell them on instagram.</p> 
+                         <a href="https://didipasstry.kz/?fbclid=PAAaa6vo_JYNxoEDjjZYRnfBh0qbRAeUri-jtKwPhzDab7_g2C5d0QW1kZiEE" class="button-1">Check our website</a>
+
+
+                    </div>
+                    <div class="service-item">
+                        <div class="icon"><img src="https://img.icons8.com/external-itim2101-flat-itim2101/64/000000/external-support-services-contact-and-message-itim2101-flat-itim2101-2.png"/>
+                        </div>
+                        <h2>My Interests</h2>
+                        <h3>Learning languages</h3>
+                         <p><b>I study Korean and Spanish</b> : As I am highly interested in Korean culture and watch a lot of kdramas started learning this beautiful language. What about Spanish? Spanish is the third popular language in the world and very beautiful in sounding. Thus this year I am taking Spanish language courses</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="icon"><img src="https://img.icons8.com/external-itim2101-flat-itim2101/64/000000/external-support-services-contact-and-message-itim2101-flat-itim2101-2.png"/>
+                        </div>
+                        <h2>My family</h2>
+                        <h3>I have a very big family</h3>
+                         <p><b>I have</b> five siblings, parents and my grandmother. They live in Shymkent, and frequently visit Astana</p> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="projects">
+        <h1 class="section-title"><span>My</span> Education</h1>
+        <div class="projects container">
+            <div class="projects-header">
+                <!-- <div class="description"> -->
+                    <div class="goal">
+                        <h1>School</h1>
+                        <h2>I studied at the NIS of Shymkent for 7 years. Biology was my favorite subject at school. But besides studying, she was interested in debates and volunteering</h2>
+                         <a href="https://www.youtube.com/watch?v=Wk6jZE0hCaA" class="button-1">Click to watch vlog from my school day</a>
+                     </div>
+            <div class="user">
+                        <h1>University</h1>
+                        <h2>Currently I am a NU Linguistic student. I am a language learner and a member of a Korean club. Thus I want to contribute to the good of both Kazakh and Korean culture</h2>
+                        <a href="new.html" class="button-1">Click to see my CV</a>
+
+                    </div>
+                <!-- </div> -->
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about container">
+                <div class="col-right">
+                    <h1 class="section-title">My<span> Social</span>s</h1>
+                    <div class="tech-items">
+                        <div class="tech-item">
+                            <div class="icon"><img src="insta.png"/></div>
+                            <h2>dariigga</h2>
+                        </div>
+                        <div class="tech-item">
+                            <div class="icon"><img src="whatsapp_PNG20.png"/></div>
+                            <h2>+7 775-432-48-70</h2>
+                        </div>
+                        <div class="tech-item">
+                            <div class="icon"><img src="tele.png"/></div>
+                            <h2>@dariga2265</h2>
+                        </div>
+                        <div class="tech-item">
+                            <div class="icon"><img src="gmail.png"/></div>
+                            <h2>da05@gmail.com</h2>
+                        </div>
+                    </div>
+
+
+
+                    </div>
+                    <a href="https://www.youtube.com/channel/UC0fvjb8qJobcgY_f1YaKipA" class="btn">Explore my Youtube channel</a>
+
+                </div>
+                
+        </div>
+    
+    </section>
+    
+    
+    
+    <section id="footer">
+        <div class="footer container">
+            <div class="brand"><h1>Dariga Arapbayeva</h1></div>
+            <h2>Run to be eternel</h2>
+            <div class="social-icon">
+                <!-- <div class="social-item">
+                    <a href="#"><img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vc
+                        mcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNTAiIGhlaWdodD0iNTAiCnZpZXdCb3g9IjAgMCAxNzIgMTcyIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDE3MnYtMTcyaDE3MnYxNzJ6IiBmaWxsPSJub25lIj48L3BhdGg+PGcgZmlsbD0iIzliNTliNiI+PHBhdGggZD0iTTg2LDYuODhjLTQzLjYyNjA4LDAgLTc5LjEyLDM1LjQ5MDQ4IC03OS4xMiw3OS4xMmMwLDQzLjYyOTUyIDM1LjQ5MzkyLDc5LjEyIDc5LjEyLDc5LjEyYzQzLjYyOTUyLDAgNzkuMTIsLTM1LjQ5MDQ4IDc5LjEyLC03OS4xMmMwLC00My42Mjk1MiAtMzUuNDkwNDgsLTc5LjEyIC03OS4xMiwtNzkuMTJ6TTExMC4wOCw1NS4wNGgtMTEuMzE3NmMtNi42NjY3MiwwIC05LjMyMjQsMS41NjUyIC05LjMyMjQsNi4yMTI2NHYxMC45ODczNmgyMC42NGwtMy40NCwxNy4yaC0xNy4ydjQ0LjcyaC0yMC42NHYtNDQuNzJoLTEwLjMydi0xNy4yaDEwLjMydi05LjU0MjU2YzAsLTE0LjUzNCA1Ljc5OTg0LC0yNC44NTc0NCAyMi42Mzg2NCwtMjQuODU3NDRjOS4wMTk2OCwwIDE4LjY0MTM2LDMuNDQgMTguNjQxMzYsMy40NHoiPjwvcGF0aD48L2c+PC9nPjwvc3ZnPg=="/></a>
+                </div>
+                <div class="social-item">
+                    <a href="#"><img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMjQiIGhlaWdodD0iMjQiCnZpZXdCb3g9IjAgMCAxNzIgMTcyIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDE3MnYtMTcyaDE3MnYxNzJ6IiBmaWxsPSJub25lIj48L3BhdGg+PGcgZmlsbD0iIzliNTliNiI+PHBhdGggZD0iTTg2LjA4Mzk5LDE0LjMzMzMzYy0zOS40NTk2NywwIC03MS41ODIzNSwzMi4wOTUwMiAtNzEuNTk2NjgsNzEuNTU0NjljLTAuMDA3MTcsMTIuNjEzMzMgMy4yOTY1NSwyNC45MjcwMSA5LjU2MDIyLDM1Ljc3NzM0bC05LjcxNDE5LDM2LjAwMTMxbDM3LjQ5OTAyLC04Ljg2MDM1YzEwLjQ1NjE3LDUuNzA0NjcgMjIuMjI2OTcsOC42OTkyMiAzNC4yMDk2Myw4LjcwNjM4aDAuMDI4YzM5LjQ1MjUsMCA3MS41NjExOCwtMzIuMTAyMTkgNzEuNTgyNjgsLTcxLjU1NDY5YzAuMDE0MzMsLTE5LjEyNzg0IC03LjQyMzc3LC0zNy4xMTE5MSAtMjAuOTQwMSwtNTAuNjQyNThjLTEzLjUxNjMzLC0xMy41MjM1IC0zMS40NzkyNSwtMjAuOTc0OTMgLTUwLjYyODU4LC0yMC45ODIxek04Ni4wNjk5OSwyOC42NjY2N2MxNS4zMDgsMC4wMDcxNyAyOS42OTM5Niw1Ljk3NTU0IDQwLjUwODQ2LDE2Ljc4Mjg4YzEwLjgxNDUsMTAuODIxNjcgMTYuNzU1MjIsMjUuMjAwOCAxNi43NDA4OSw0MC40OTQ0N2MtMC4wMTQzMywzMS41NjE5OSAtMjUuNjg3MDIsNTcuMjM1MzUgLTU3LjI2MzM1LDU3LjIzNTM1Yy05LjU1MzE3LC0wLjAwNzE3IC0xOS4wMTYwNywtMi40MDU4OCAtMjcuMzUwOTEsLTYuOTU2NzFsLTQuODI5MSwtMi42MzE1MWwtNS4zMzMwMSwxLjI1OTc2bC0xNC4xMDkzNywzLjMzMTM4bDMuNDQzMzYsLTEyLjc5MzYybDEuNTUzNzEsLTUuNzM4OTRsLTIuOTY3NDUsLTUuMTUxMDRjLTUuMDAyMzMsLTguNjU3MzMgLTcuNjQ5NzQsLTE4LjU1NTg0IC03LjY0MjU4LC0yOC42MTA2N2MwLjAxNDMzLC0zMS41NDc2NyAyNS42OTQ1MiwtNTcuMjIxMzUgNTcuMjQ5MzUsLTU3LjIyMTM1ek02MC43NDg3LDUyLjg1NDE3Yy0xLjE5NjgzLDAgLTMuMTMxOTUsMC40NDc5MiAtNC43NzMxMSwyLjIzOTU4Yy0xLjY0
+                        MTE3LDEuNzg0NSAtNi4yNzA4Myw2LjEwNjU2IC02LjI3MDgzLDE0LjkwNzIzYzAsOC44MDA2NyA2LjQxMDgxLDE3LjMwNzcyIDcuMzA2NjQsMTguNTA0NTVjMC44ODg2NywxLjE4OTY3IDEyLjM3NDQ4LDE5LjgyMDMxIDMwLjU1NjMyLDI2Ljk4Njk4YzE1LjEwNzMzLDUuOTU1NSAxOC4xNzU2OCw0Ljc4MDE3IDIxLjQ1ODAxLDQuNDc5MTdjMy4yODIzMywtMC4yOTM4MyAxMC41ODkwOSwtNC4zMTgyNSAxMi4wNzk3NSwtOC40OTY0MWMxLjQ5MDY2LC00LjE3ODE3IDEuNDk0MTQsLTcuNzcyMjYgMS4wNDk4LC04LjUxMDQyYy0wLjQ0NDMzLC0wLjc0NTMzIC0xLjYzNzcsLTEuMTg5NzggLTMuNDI5MzYsLTIuMDg1NjFjLTEuNzg0NSwtMC44OTU4MyAtMTAuNTc4NTYsLTUuMjE0MDkgLTEyLjIxOTczLC01LjgwODkyYy0xLjY0MTE3LC0wLjU5NDgzIC0yLjg0MTU4LC0wLjg5NTgzIC00LjAzMTI1LDAuODk1ODNjLTEuMTg5NjcsMS43OTE2NyAtNC42MDg2MSw1LjgwOTAzIC01LjY1NDk0LDYuOTk4N2MtMS4wNDYzMywxLjE5NjgzIC0yLjA4NTYxLDEuMzU3NzUgLTMuODc3MjgsMC40NjE5MWMtMS43OTE2NywtMC45MDMgLTcuNTUyMzIsLTIuNzk2NjggLTE0LjM4OTMyLC04Ljg4ODM1Yy01LjMxNzY3LC00LjczNzE3IC04LjkwNTgyLC0xMC41ODIwMyAtOS45NTIxNSwtMTIuMzczNjljLTEuMDM5MTcsLTEuNzg0NSAtMC4wOTc5OCwtMi43NjQ2NiAwLjc5Nzg1LC0zLjY1MzMyYzAuODAyNjcsLTAuODAyNjcgMS43Nzc2NywtMi4wODkwOCAyLjY3MzUsLTMuMTM1NDJjMC44ODg2NywtMS4wNDYzMyAxLjE5NjgzLC0xLjc5MTc4IDEuNzkxNjcsLTIuOTgxNDVjMC41OTQ4MywtMS4xODk2NiAwLjI5MDM2LC0yLjIzOTU4IC0wLjE1Mzk4LC0zLjEzNTQxYy0wLjQ0NDMzLC0wLjg5NTgzIC0zLjkyMzk3LC05LjcyOTIgLTUuNTE0OTcsLTEzLjI2OTUzYy0xLjM0MDE3LC0yLjk3NDE3IC0yLjc1NTU4LC0zLjA0MzI2IC00LjAzMTI1LC0zLjA5MzQyYy0xLjAzOTE3LC0wLjA0MyAtMi4yMjU3LC0wLjA0MTk5IC0zLjQxNTM2LC0wLjA0MTk5eiI+PC9wYXRoPjwvZz48L2c+PC9zdmc+"/></a>
+                </div>
+                <div class="social-item">
+                    <a href="#"><img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMzAiIGhlaWdodD0iMzAiCnZpZXdCb3g9IjAgMCAxNzIgMTcyIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDE3MnYtMTcyaDE3MnYxNzJ6IiBmaWxsPSJub25lIj48L3BhdGg+PGcgZmlsbD0iIzliNTliNiI+PHBhdGggZD0iTTU3LjMyMjE0LDE3LjJjLTIyLjEyNDkzLDAgLTQwLjEyMjE0LDE4LjAxMzg2IC00MC4xMjIxNCw0MC4xNDQ1M3Y1Ny4zMzMzM2MwLDIyLjEyNDkzIDE4LjAxMzg2LDQwLjEyMjE0IDQwLjE0NDUzLDQwLjEyMjE0aDU3LjMzMzMzYzIyLjEyNDkzLDAgNDAuMTIyMTQsLTE4LjAxMzg2IDQwLjEyMjE0LC00MC4xNDQ1M3YtNTcuMzMzMzNjMCwtMjIuMTI0OTMgLTE4LjAxMzg2LC00MC4xMjIxNCAtNDAuMTQ0NTMsLTQwLjEyMjE0ek0xMjYuMTMzMzMsNDAuMTMzMzNjMy4xNjQ4LDAgNS43MzMzMywyLjU2ODUzIDUuNzMzMzMsNS43MzMzM2MwLDMuMTY0OCAtMi41Njg1Myw1LjczMzMzIC01LjczMzMzLDUuNzMzMzNjLTMuMTY0OCwwIC01LjczMzMzLC0yLjU2ODUzIC01LjczMzMzLC01LjczMzMzYzAsLTMuMTY0OCAyLjU2ODUzLC01LjczMzMzIDUuNzMzMzMsLTUuNzMzMzN6TTg2LDUxL
+                        jZjMTguOTcxNiwwIDM0LjQsMTUuNDI4NCAzNC40LDM0LjRjMCwxOC45NzE2IC0xNS40Mjg0LDM0LjQgLTM0LjQsMzQuNGMtMTguOTcxNiwwIC0zNC40LC0xNS40Mjg0IC0zNC40LC0zNC40YzAsLTE4Ljk3MTYgMTUuNDI4NCwtMzQuNCAzNC40LC0zNC40ek04Niw2My4wNjY2N2MtMTIuNjY1NzMsMCAtMjIuOTMzMzMsMTAuMjY3NiAtMjIuOTMzMzMsMjIuOTMzMzNjMCwxMi42NjU3MyAxMC4yNjc2LDIyLjkzMzMzIDIyLjkzMzMzLDIyLjkzMzMzYzEyLjY2NTczLDAgMjIuOTMzMzMsLTEwLjI2NzYgMjIuOTMzMzMsLTIyLjkzMzMzYzAsLTEyLjY2NTczIC0xMC4yNjc2LC0yMi45MzMzMyAtMjIuOTMzMzMsLTIyLjkzMzMzeiI+PC9wYXRoPjwvZz48L2c+PC9zdmc+"/></a>
+                </div> -->
+            </div>
+           
+        </div>
+    </section>
+
+    <script src="./main.js"></script>
+
+</body>
+</html>
